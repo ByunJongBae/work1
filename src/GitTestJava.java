@@ -3,8 +3,12 @@
  */
 public class GitTestJava
 {
-    public static void main(String[] args)
+    static final int NUM_TEST=10;
+
+    public int numBer()
     {
-        System.out.println("test");
+        // int numTest0;
+        return NUM_TEST;
     }
+
 }
